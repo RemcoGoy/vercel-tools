@@ -4,7 +4,8 @@ A set of TypeScript scripts for managing Vercel Blob storage.
 
 ## Setup
 
-1. Install dependencies:```bash
+1. Install dependencies:
+```bash
 pnpm install
 ```
 
