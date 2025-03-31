@@ -1,0 +1,22 @@
+{
+    "name": "vercel-tools",
+    "version": "1.0.0",
+    "description": "Tools for managing Vercel Blob storage",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node dist/index.js",
+        "blob:list": "ts-node src/scripts/list-blobs.ts",
+        "blob:read": "ts-node src/scripts/read-blob.ts",
+        "blob:delete": "ts-node src/scripts/delete-blob.ts"
+    },
+    "dependencies": {
+        "@vercel/blob": "^0.22.1",
+        "dotenv": "^16.4.5"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.19",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.3.3"
+    }
+}
